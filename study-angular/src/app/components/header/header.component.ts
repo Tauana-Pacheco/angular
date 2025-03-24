@@ -10,6 +10,6 @@ import { CommonModule } from '@angular/common';
 })
 export class HeaderComponent {
   @Input() title: string = 'BORA FILHO';
-  @Input() showBackButton: boolean = true;
+  @Input() showBackButton: boolean = false;
   @Input() showCloseButton: boolean = true;
 }
