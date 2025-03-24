@@ -1,0 +1,18 @@
+<div class="container">
+  <!-- <header class="header">
+    <button class="btn-back">
+      <mat-icon>arrow_back</mat-icon>
+    </button>
+  
+    <button class="btn-close">
+      <mat-icon>close</mat-icon>
+    </button>
+    
+    <section class="title">{{ title }}</section>
+  </header> -->
+  <header>
+    <h1>{{ title }}</h1>
+    <button *ngIf="showBackButton">Voltar</button>
+    <button *ngIf="showCloseButton">Fechar</button>
+  </header>
+</div>

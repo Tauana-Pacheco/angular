@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 0 24px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Mantém os botões nas laterais e o título centralizado */
+  height: 64px; /* Define uma altura fixa para evitar desajustes */
+}
+
+.title {
+  flex: 1; /* Isso ajuda o título a ocupar o espaço central */
+  text-align: center; /* Centraliza o texto */
+}
+
+.btn-back, .btn-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
